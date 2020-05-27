@@ -1,0 +1,12 @@
+/* 所有按钮 */
+
+.btn .el-button {
+    width: 110px;
+}
+
+
+/* 取消按钮 */
+
+.cancelbtn .el-button {
+    margin-left: -15px;
+}

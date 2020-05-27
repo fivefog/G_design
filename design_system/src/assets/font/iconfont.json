@@ -1,0 +1,23 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7494710",
+      "name": "商务头像，男士",
+      "font_class": "huabanfuben",
+      "unicode": "e6a0",
+      "unicode_decimal": 59040
+    },
+    {
+      "icon_id": "7494718",
+      "name": "女孩，头像",
+      "font_class": "huabanfuben1",
+      "unicode": "e6a1",
+      "unicode_decimal": 59041
+    }
+  ]
+}

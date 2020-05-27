@@ -1,0 +1,158 @@
+@charset "UTF-8";
+/* 页面左右间距 */
+/* 文字尺寸 */
+/*文字颜色*/
+/* 边框颜色 */
+/* 图片加载中颜色 */
+/* 行为相关颜色 */
+.simple-address.data-v-94f5323c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+          flex-direction: column;
+}
+.simple-address-mask.data-v-94f5323c {
+  position: fixed;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  opacity: 0;
+  z-index: 99;
+}
+.mask-ani.data-v-94f5323c {
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.simple-bottom-mask.data-v-94f5323c {
+  opacity: 1;
+}
+.simple-center-mask.data-v-94f5323c {
+  opacity: 1;
+}
+.simple-address--fixed.data-v-94f5323c {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transition-property: -webkit-transform;
+  transition-property: -webkit-transform;
+  transition-property: transform;
+  transition-property: transform, -webkit-transform;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+  -webkit-transform: translateY(460rpx);
+          transform: translateY(460rpx);
+  z-index: 99;
+}
+.simple-address-content.data-v-94f5323c {
+  background-color: #ffffff;
+}
+.simple-content-bottom.data-v-94f5323c {
+  bottom: 0;
+  left: 0;
+  right: 0;
+  -webkit-transform: translateY(500rpx);
+          transform: translateY(500rpx);
+}
+.content-ani.data-v-94f5323c {
+  -webkit-transition-property: opacity, -webkit-transform;
+  transition-property: opacity, -webkit-transform;
+  transition-property: transform, opacity;
+  transition-property: transform, opacity, -webkit-transform;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+.simple-bottom-content.data-v-94f5323c {
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
+}
+.simple-center-content.data-v-94f5323c {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  opacity: 1;
+}
+.simple-address__header.data-v-94f5323c {
+  position: relative;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-flex-wrap: nowrap;
+          flex-wrap: nowrap;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-bottom-color: #f2f2f2;
+  border-bottom-style: solid;
+  border-bottom-width: 1rpx;
+}
+.simple-address--fixed-top.data-v-94f5323c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+          justify-content: space-between;
+  border-top-color: #c8c7cc;
+  border-top-style: solid;
+  border-top-width: 1rpx;
+}
+.simple-address__header-btn-box.data-v-94f5323c {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+          align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+          justify-content: center;
+  height: 70rpx;
+}
+.simple-address__header-text.data-v-94f5323c {
+  text-align: center;
+  font-size: 28rpx;
+  color: #1aad19;
+  line-height: 70rpx;
+  padding-left: 40rpx;
+  padding-right: 40rpx;
+}
+.simple-address__box.data-v-94f5323c {
+  position: relative;
+}
+.simple-address-view.data-v-94f5323c {
+  position: relative;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 408rpx;
+  background-color: white;
+}
+.picker-item.data-v-94f5323c {
+  text-align: center;
+  line-height: 70rpx;
+  text-overflow: ellipsis;
+  font-size: 28rpx;
+}
+

@@ -1,0 +1,26 @@
+marquee {
+    font: 700 40px "隶书";
+    /* 4s,无限循环 */
+    animation: marquee 1s infinite;
+    background-color: rgba(202, 230, 241, 0.5);
+    margin: 10px 0;
+}
+
+
+/* 字体动画 */
+
+@keyframes marquee {
+    0% {
+        color: #D24D57
+    }
+    50% {
+        color: #26A65B;
+    }
+    100% {
+        color: #6495ed;
+    }
+}
+
+#main3 {
+    height: 496px;
+}

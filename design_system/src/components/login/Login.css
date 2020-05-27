@@ -1,0 +1,109 @@
+.login-wrap {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #049ec4 url(../../assets/imgs/img11.jpg) repeat-x;
+    -webkit-animation: animate-cloud 20s linear infinite;
+    -moz-animation: animate-cloud 20s linear infinite;
+    -ms-animation: animate-cloud 20s linear infinite;
+    -o-animation: animate-cloud 20s linear infinite;
+    animation: animate-cloud 20s linear infinite;
+}
+
+@-webkit-keyframes animate-cloud {
+    from {
+        background-position: 600px 100%;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@-moz-keyframes animate-cloud {
+    from {
+        background-position: 600px 100%;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@-ms-keyframes animate-cloud {
+    from {
+        background-position: 600px 100%;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+@-o-keyframes animate-cloud {
+    from {
+        background-position: 600px 100%;
+    }
+    to {
+        background-position: 0 100%;
+    }
+}
+
+.login-from {
+    width: 400px;
+    background-color: rgba(202, 230, 241, 0.5);
+    border-radius: 5px;
+    padding: 85px 48px 36px;
+    position: relative;
+    /* 阴影 */
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.15);
+    position: relative;
+    font-weight: 700;
+}
+
+.slide {
+    position: absolute;
+    left: 50%;
+    margin-left: -155px;
+}
+
+
+/* 登录表单 */
+
+.login-formItem {
+    padding: 5px 0;
+}
+
+.login-from h2 {
+    text-align: center;
+    font: 700 25px "Helvetica Neue";
+    /* 字间距 */
+    letter-spacing: 3px;
+    color: #303133;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    margin-left: -126px;
+}
+
+
+/* 所有按钮 */
+
+.allbtn {
+    /* 弹性盒布局 */
+    display: flex;
+    /* 控制水平位置*/
+    justify-content: center;
+}
+
+.allbtn .el-button {
+    width: 40%;
+}
+
+
+/* 忘记密码？ */
+
+.forgetpwd {
+    position: absolute;
+    right: 3px;
+    margin-top: 2px;
+    font-size: 18px;
+}

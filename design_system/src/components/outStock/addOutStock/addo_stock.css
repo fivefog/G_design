@@ -1,0 +1,20 @@
+/* 所有按钮 */
+
+.o_stockbtn .el-button {
+    width: 110px;
+    margin-left: 12px;
+}
+
+
+/* 重置按钮 */
+
+.o_stockResetbtn .el-button {
+    margin-left: -10px;
+}
+
+
+/* 表单中的输入框 */
+
+.addo_stock_input {
+    margin-left: 6px;
+}

@@ -1,0 +1,10 @@
+/* 批量修改的库存预警 */
+
+.stock {
+    margin-left: 100px;
+}
+
+.stock .el-button {
+    margin-left: 15px;
+    width: 110px;
+}

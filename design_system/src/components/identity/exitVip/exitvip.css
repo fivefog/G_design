@@ -1,0 +1,12 @@
+/* 所有按钮 */
+
+.btn .el-button {
+    width: 120px;
+}
+
+
+/* 取消申请按钮 */
+
+.recovervipbtn .el-button {
+    margin-left: -15px;
+}
